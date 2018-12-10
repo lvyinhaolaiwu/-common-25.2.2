@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        //classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.5.4" // Remove it if you won't to publish SNAPSHOT version.
+	//classpath 'com.github.dcendents:android-maven-gradle-plugin:1.7.3.1'
+    }
+}
+
+// This script was used to upload files to bintray.
+// Note: please put it on the bottm.
+apply from: 'bintray.gradle'
