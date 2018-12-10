@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         jcenter()
-        google()
+        //google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
@@ -9,6 +9,15 @@ buildscript {
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
         //classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.5.4" // Remove it if you won't to publish SNAPSHOT version.
     }
+}
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
 
 // This script was used to upload files to bintray.
