@@ -13,8 +13,8 @@ ext {
     libraryVersion = '25.2.2'
 
     //以下三项只是对开源库的描述（应该不是必配项吧，没尝试过）
-    libraryName = 'tv'
-    libraryDescription = 'dasu 封装的常用，可公用的 tvui 库'
+    libraryName = 'common25.2.2'
+    libraryDescription = 'lvyinhaolaiwu 封装的常用，可公用的 common 库'
     siteUrl = 'https://github.com/lvyinhaolaiwu/-common-25.2.2/common-25.2.2'
 
     //开源库对应的 github 地址，不知道可不可以不配，应该也是必配
