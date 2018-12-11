@@ -13,7 +13,7 @@ ext {
     libraryVersion = '25.2.2'
 
     //以下三项只是对开源库的描述（应该不是必配项吧，没尝试过）
-    libraryName = 'common25.2.2'
+    libraryName = 'common-25.2.2'
     libraryDescription = 'lvyinhaolaiwu 封装的常用，可公用的 common 库'
     siteUrl = 'https://github.com/lvyinhaolaiwu/-common-25.2.2/tree/master/common-25.2.2'
 

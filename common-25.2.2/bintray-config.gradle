@@ -1,6 +1,6 @@
 ext {
     //bintray 网站上你创建的仓库的名字（必配项）
-    bintrayRepo = '-common-25.2.2'
+    bintrayRepo = 'common-25.2.2'
     //在这个仓库下的 package name（必配项）
     bintrayName = 'common-25.2.2'
     //以上两项均只是指向 bintray 网站上你的仓库和仓库下的package
